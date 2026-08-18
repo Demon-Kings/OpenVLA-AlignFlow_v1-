@@ -1,4 +1,4 @@
-# OpenVLA-AlignFlow_v1: 纯算法多模态具身大模型决策系统与代码库
+# OpenVLA-AlignFlow_v1: 纯算法多模态具身大模型决策系统
 
 > **项目名称**：OpenVLA-AlignFlow: 融合细粒度图文对齐与连续流匹配的具身大模型决策系统  
 > **核心技术栈**：PyTorch / Qwen3-VL / SigLIP / Conditional Flow Matching (CFM) / SOTA Trajectory-DPO / Action Chunking (k=16) / OpenX (BridgeData v2)  
