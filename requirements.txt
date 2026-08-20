@@ -1,0 +1,32 @@
+# ==========================================
+# OpenVLA-AlignFlow Dependencies
+# ==========================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Model Architecture & Tokenization
+transformers>=4.31.0
+einops>=0.6.1
+
+# Data Processing & Math
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Dataset Handling (Open X-Embodiment)
+tfrecord>=1.2.2
+datasets>=2.14.0
+google-cloud-storage>=2.10.0  # Required for dddd.py GCS batch downloads
+
+# Evaluation & Physical Metrics
+fastdtw>=0.3.4                # Required for DTW Temporal Causality Distance
+
+# Hyperparameter Optimization & Auto-Tuning
+optuna>=3.2.0                 # Required for the standalone PID/Bayesian tuning engine
+
+# Utilities & Logging
+tqdm>=4.65.0
+pyyaml>=6.0
+tensorboard>=2.13.0
